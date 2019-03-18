@@ -2903,7 +2903,7 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 });
 
 client.on("message", message => {
- if (message.content === `${prefix}`) {
+ if (message.content === `${prefix+helpmusic}`) {
   const embed = new Discord.RichEmbed() //by ,$ ReBeL ء , ??#4777 'CODES SERVER'
       .setColor("#000000")//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
       .setDescription(`
