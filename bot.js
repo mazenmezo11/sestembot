@@ -743,7 +743,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : 3bker")
+     .setFooter("By : Mazen")
                                                 
 
 message.channel.send(embed);
@@ -1896,7 +1896,7 @@ client.on('guildCreate', guild => {
      .setTitle('Click Here To Add Bot .!')
      .setURL('https://discordapp.com/oauth2/authorize?client_id=435392018693488641&scope=bot&permissions=2146958591')
   .setDescription(`**
-  New Server Add 3bker Community © ?
+  New Server Add Mazen Community © ?
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
 client.channels.get("474127377245667328").sendEmbed(embed)
@@ -1904,14 +1904,14 @@ client.channels.get("474127377245667328").sendEmbed(embed)
 client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=435392018693488641&scope=bot&permissions=2146958591')
+     .setTitle('اضغط لإضافة البوت.!')
+     .setURL('https://discordapp.com.oauth2/authorize?client_id=435392018693488641&scope=bot&permissions=2146958591https://discordapp.com/api/oauth2/authorize?client_id=555969240075599890&permissions=8&scope=bot')
   .setDescription(`**
-  Server Kicked 3bker Community © :cry:
+  Server Kicked Mazen Community © :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("474127377245667328").sendEmbed(embed)
-});
+client.channels.get("555833541812813844").sendEmbed(embed)
+})
 var type = [
     {
             "type": "ما هو أصل كلمة أطلس التي تطلق على كتاب الخرائط ؟",
